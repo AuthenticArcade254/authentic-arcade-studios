@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentic Arcade</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        :root {
+            --white: #ffffff;
+            --mustard-yellow: #E1AD01;
+            --dark-jungle-green: #1C3D3A;
+            --light-green: #A7C957;
+            --brown: #8B5A2B;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: var(--white);
+            color: var(--dark-jungle-green);
+        }
+        header {
+            background: var(--dark-jungle-green);
+            color: var(--white);
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: var(--mustard-yellow);
+            text-decoration: none;
+        }
+        .hero {
+            background: var(--light-green);
+            padding: 50px 20px;
+        }
+        .btn {
+            background: var(--mustard-yellow);
+            color: var(--white);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: var(--brown);
+            color: var(--white);
+            border-radius: 8px;
+        }
+        footer {
+            background: var(--dark-jungle-green);
+            color: var(--white);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Authentic Arcade</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Capturing Timeless Memories</h2>
+        <p>Professional Photography & Videography in Kenya</p>
+        <a href="#contact" class="btn">Book a Session</a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <p>Authentic Arcade specializes in high-quality photography and videography for weddings, graduations, corporate events, and personal shoots.</p>
+    </section>
+
+    <section id="services" class="fade-in">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Wedding Photography & Videography</li>
+            <li>Portraits & Graduation Shoots</li>
+            <li>Corporate & Event Coverage</li>
+            <li>Drone Photography</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="fade-in">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="Wedding Photo">
+            <img src="images/photo2.jpg" alt="Event Coverage">
+            <img src="images/photo3.jpg" alt="Graduation Shoot">
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>Phone: +254 700 000 000</p>
+        <p>Follow us on <a href="https://instagram.com/yourpage" target="_blank">Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Authentic Arcade | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
